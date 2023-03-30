@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+.container{
+    margin: auto;
+   max-width: 100%;
+    min-height:100vh;
+    background-image:url("./assets/img2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity:1;
+    color: white;
+    font-weight: bold;
+    
+}
+.navbar{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: silver;
+    color: white;
+    
+    
+}
+ol{
+    display: flex;
+    text-decoration: none;
+    padding: 8px;
+    float: right;
+}
+li{
+    padding: 8px;
+    display: inline;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+}
+li,a{
+    color:white;
+    text-decoration: none;
+
+}
+a:hover{
+    color:red;
+}
+.wellcome-tour{
+    text-align: center;
+    padding: 200px;
+    font-weight: bolder;
+}
+.wellcome-tour:hover{
+    cursor: pointer;
+    color:red;
+}
+.div-center{
+    padding: 80px;
+}
+.div1{
+    float: left;
+    border:none;
+    padding:15px,30px;
+}
+.div2{
+    float: right;
+}
+.div3{
+    justify-content: center;
+    display: flex;
+    
+}
+input{
+    padding: 15px;
+    border-radius: 5px;
+}
+.body-center{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.intertaiment{
+    text-align: center;
+    color:blue;
+}
+
