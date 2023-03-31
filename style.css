@@ -5,6 +5,7 @@
 body{
     margin: 0;
     font-family:'Times New Roman', Times, serif;
+    background-color: silver;
 }
 .container{
     margin: auto;
@@ -85,5 +86,68 @@ input{
 .intertaiment{
     text-align: center;
     color:blue;
+}
+.signin{
+    color: white;
+    border: none;
+    padding: 5px;
+    background-color:green;
+    cursor: pointer;
+    
+}
+.signin:hover{
+    color: coral;
+}
+.gategories{
+    width: 100%;
+    height: 200px;
+    background-color: silver;
+}
+.card1{
+    width: 20%;
+    height: 200px;
+    display: flex;
+    float: left;
+    background-color: rebeccapurple;
+}
+.card2{
+    width: 20%;
+    display: flex;
+    float: left;
+    height: 200px;
+    background-color:rebeccapurple;
+}
+.card3{
+    width: 20%;
+    height: 200px;
+    display: flex;
+    float: left;
+    background-color:rebeccapurple;
+}
+.card4{
+    width: 20%;
+    height: 200px;
+    display: flex;
+    float: left;
+    background-color:rebeccapurple;
+}
+.pcs{
+    width: 5%;
+    height: 200px;
+    display: flex;
+    float: left;
+}
+.pcs1{
+    width: 2.5%;
+    height: 200px;
+    display: flex;
+    float: left;
+}
+img{
+    width: 100%;
+    cursor: pointer;
+}
+img:hover{
+    border-bottom: aqua;
 }
 
