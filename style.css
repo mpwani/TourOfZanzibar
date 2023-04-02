@@ -5,7 +5,7 @@
 body{
     margin: 0;
     font-family:'Times New Roman', Times, serif;
-    background-color: silver;
+    background-color:white;
 }
 .container{
     margin: auto;
@@ -23,7 +23,7 @@ body{
 .navbar{
     padding-left: 100px;
     padding-right: 100px;
-    background-color: silver;
+    background-color:white;
     color: white;
     
     
@@ -47,8 +47,8 @@ li,a{
     text-decoration: none;
 
 }
-a:hover{
-    color:red;
+a{
+    color:black;
 }
 .wellcome-tour{
     text-align: center;
@@ -57,7 +57,7 @@ a:hover{
 }
 .wellcome-tour:hover{
     cursor: pointer;
-    color:red;
+    color:chocolate;
 }
 .div-center{
     padding: 80px;
@@ -85,51 +85,51 @@ input{
 }
 .intertaiment{
     text-align: center;
-    color:blue;
 }
 .signin{
     color: white;
     border: none;
     padding: 5px;
-    background-color:green;
+    border-style: solid;
     cursor: pointer;
     
 }
 .signin:hover{
-    color: coral;
+    background-color: chocolate;
 }
 .gategories{
     width: 100%;
     height: 200px;
-    background-color: silver;
+
+    background-color: white;
 }
 .card1{
     width: 20%;
     height: 200px;
     display: flex;
     float: left;
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
 }
 .card2{
     width: 20%;
     display: flex;
     float: left;
     height: 200px;
-    background-color:rebeccapurple;
+    /* background-color:rebeccapurple; */
 }
 .card3{
     width: 20%;
     height: 200px;
     display: flex;
     float: left;
-    background-color:rebeccapurple;
+    /* background-color:rebeccapurple; */
 }
 .card4{
     width: 20%;
     height: 200px;
     display: flex;
     float: left;
-    background-color:rebeccapurple;
+    /* background-color:rebeccapurple; */
 }
 .pcs{
     width: 5%;
@@ -145,9 +145,44 @@ input{
 }
 img{
     width: 100%;
+    border: 8px;
     cursor: pointer;
 }
-img:hover{
-    border-bottom: aqua;
+.reg{
+    margin: auto;
+    color: chocolate;
+    padding: 100px;
 }
-
+.sbm{
+    border: none;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    border-style: solid;
+    border-color: chocolate;
+    
+}
+.sbm:hover{
+    background-color: chocolate;
+    cursor: pointer;
+}
+.btn{
+    border-style: solid;
+    border-color: chocolate;
+    border-radius: 8px;
+    padding: auto;
+    margin: 0;
+    width: 50%;
+}
+.btn:hover{
+    background-color: chocolate;
+}
+.navform{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: chocolate;
+}
+.navform::after:hover{
+    color: white;
+}

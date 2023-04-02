@@ -9,9 +9,9 @@
 </head>
 <body>
     <!-- navbar -->
-    <div class="container">
         <!-- navbar -->
-                <div class="navbar">
+                <div class="navbar" >
+                <div class="navform">
                     <ol>
                         <li><a href="index.html">HOME</a></li>
                         <li><a href="">MANU</a></li>
@@ -20,29 +20,53 @@
                         <li><input class="signin" type="submit" height="#" value="signin"></li>
                     </ol>
                 </div>
-        <!-- navbar end -->
-        
-        <!-- topic web wellcome -->
-        <div class="wellcome-tour">
-            <h1>Wellcome To Tour Services</h1>
-            <p>The National Tourisim Center</p>
-        <br>
-            <!-- div center -->
-        <div class="div-center">
-            <div class="div1"><input type="text" name="date-order" id="" placeholder="Type your Messagies"></div>
-            <div class="div2"><input type="search" name="email" id="" placeholder="search your location" ></div>
-            <div class="div3"><input type="email" name="datetime" id="" placeholder="Enter your Email For Your Subcribles"></div>
-        </div>
-        <!-- end dive center -->
-            </div>
-        
-        </div>
+                </div>
+     </div>
     <!-- navbar -->
-    <h2>Registration Form</h2>
     <div class="card">
+        <div class="reg">
+            <h2>LUXURY HOTEL</h2>
+        <h2>Hotel Booking Form</h2>
+        <br><br>
+        <!-- form-hotel-registration -->
+
+    
         <form action="">
+            <label for="">Name*</label><br>
+            <input type="text" name="fname" id="fname" placeholder="first name">
+            <input type="text" name="lname" id="lname" placeholder="last name">
+            <br><br>
+            <label for="">Phone*</label><br>
+            <input type="number" name="phone" id="" placeholder="+255 *** **** ***">
+            <br><br>
+            <label for="">Email*</label><br>
+            <input type="email" name="email" id="email" placeholder="email">
+            <br><br>
+            <label for="">Arival Date*</label><br>
+            <input type="date" name="date" id="date"> 
+            <br><br>
+            <label for="">Arival Time*</label><br>
+            <input type="time" name="time" id="time">
+            <br><br>
+            <label for="">Departure Date*</label><br>
+            <input type="date" name="date" id="date">
+            <br><br>
+            <label for="">Kids*</label><br>
+            <input type="text" name="kid" id="kid">
+            <br><br>
+            <label for="">Room Types*</label><br>
+            <input type="text" name="room" id="room">
+            <br><br>
+            <label for="">Free Pickup*</label><br>
+            <input type="radio" name="select" id="select" value="yes">Yess please!
+            <input type="radio" name="select" id="select" value="no"> No thanks.
+            <br><br>
+            <label for="">Special Requests*</label><br>
+            <textarea name="comment" id="" cols="30" rows="2"></textarea>
+            <br><br><button type="submit" class="sbm">Reserver</button>
+
 
         </form>
-    </div>
+        </div>
 </body>
 </html>
