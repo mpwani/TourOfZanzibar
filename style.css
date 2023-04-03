@@ -186,3 +186,63 @@ img{
 .navform::after:hover{
     color: white;
 }
+.navabout{
+    width: 100%;
+    height: 50px;
+    background-color: chocolate;
+}
+.about-hotel{
+    padding-left: 180px;
+    padding-right: 180px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bar{
+    justify-content: center;
+    padding-left: 250px;
+    width: 50%;
+    height: 400px;
+}
+.googleh1{
+    forced-color-adjust: none;
+    text-align: center;
+    font-size: 81.25px;
+    margin-top: 150px;
+}
+.textinput{
+    display: flex;
+    justify-content: center;
+}
+.inputsearch{
+    width: 60%;
+    padding: 15px;
+    border-style: solid;
+    box-shadow: silver;
+    border-color: silver;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px -7px #000;
+}
+.inputsearch:hover{
+    border-style: solid;
+    box-shadow: silver;
+    border-color: silver;
+    box-shadow: 0 2px 10px -7px #000;
+
+}
+.submlit{
+    display: flex;
+    justify-content: center;
+}
+button{
+    
+    border: none;
+    padding: 15px;
+    
+    border-style: solid;
+    border-radius: 8px;
+    border-color: blue;
+}
+button:hover{
+    color: white;
+    background-color: blue;
+}
