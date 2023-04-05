@@ -246,3 +246,18 @@ button:hover{
     color: white;
     background-color: blue;
 }
+.images-top{
+    padding-left: 180px;
+    padding-right: 180px;
+    display: flex;
+    justify-content: right;
+}
+.images-top,h3{
+    color: chocolate;
+}
+.account{
+    padding: 0 0 20px 0;
+    border: 1px;
+    border-style:1px solid;
+    border-color: chocolate;
+}
